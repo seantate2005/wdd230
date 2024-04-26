@@ -1,7 +1,7 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: tan;
-    color:turquoise
+    background-color: #4793AF;
+    color:#FFC470; 
     padding:0;
 }
 
@@ -34,17 +34,18 @@ nav li{
 main{
 display:grid; 
 grid-template-columns: 1fr;
-gap:20ps; 
+gap:20px; 
 }
 
 .card{
-    background-color: turquoise;
+    background-color: #8B322C;
     padding: 20px;
 }
 
+
 footer{
-    background-color: royalblue; 
-    color: yellow; 
+    background-color: #4793AF; 
+    color: #ffc470; 
     padding: 20px; 
     text-align:center;    
 }
