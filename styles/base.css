@@ -42,11 +42,23 @@ grid-template-columns: 1fr;
 gap:20px; 
 }
 
-.card{
-    background-color: #8B322C;
-    padding: 20px;
-}
 
+@media screen and (min-width:992px){
+    .card{
+        display:inline; 
+        width: 50%; 
+        background-color: #8b322c;
+    
+    }
+    }
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+      padding: 20px;
+      background-color: #8b322C;
+    }
+  }
 
 footer{
     background-color: #4793AF; 
@@ -55,25 +67,6 @@ footer{
     text-align:center;    
 }
 
-@media (min-width: 1500px){
-    nav{
-        display:flex; 
-    }
 
-    nav ul{
-        flex-direction:row; 
-    }
-
-    main{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .card{
-        display:flex; 
-        flex-direction: column;
-
-    }
-
-    .card:nth-child(1){
-        flex-grow:2; 
-    }
-}
+  
+ 
