@@ -55,7 +55,7 @@ footer{
     text-align:center;    
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1500px){
     nav{
         display:flex; 
     }
