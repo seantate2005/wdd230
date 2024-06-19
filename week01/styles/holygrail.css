@@ -15,6 +15,7 @@ body {
     grid-column: 1 / 2;
   }
   <!-- this content was forked from Google Web Developers 10 Modern Layouts https://youtu.be/qm0IfG1GyZU?t=465-->
+{
 <header>
   <h1 contenteditable>Header.com</h1>
 </header>
