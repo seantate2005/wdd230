@@ -1,4 +1,4 @@
-const inoput = document.querySelector('#favchap'); 
+const input = document.querySelector('#favchap'); 
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
-button.addEventListener('click', function () {}
+button.addEventListener('click', function ('Scripture has been added.)');
