@@ -23,7 +23,7 @@ body {
 <main contenteditable>Main Content Area</main>
 <aside contenteditable>Right Sidebar</aside>
 <footer contenteditable>Footer Content — Header.com</footer>
-  main {
+  .main {
     background: coral;
     grid-column: 2 / 3;
   }
