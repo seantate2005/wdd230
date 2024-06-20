@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing:0;
 }
 body{
     background-color:navy; 
@@ -10,7 +9,7 @@ body{
     font-size: 30px; 
 }
 li{
-    color:light yellow;
+    color:yellow;
 }
 nav{
     background-color: orange; 
@@ -49,7 +48,7 @@ nav .active{
     border-radius: 150px;
     padding: 50px; 
     overflow:hidden;
-    margin: 1rem, 0;  
+    margin: 1rem 0;  
 }
 
 .card h2{
