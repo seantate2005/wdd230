@@ -1,4 +1,4 @@
-@media (min-width: 1540px) {
+@media (min-width: 1600px) {
 .grid-container{
 	display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7,3 +7,17 @@
   padding: 50px;
   margin-left: 300px;
 }}
+
+#myButton{
+  display:none;
+}
+
+ul.menuLinks, ul.menuLinks.open{
+  display:flex; 
+
+   
+
+  ul.menuLinks a:hover{
+    background-color: yellow; 
+  }
+}
