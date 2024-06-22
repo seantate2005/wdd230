@@ -19,7 +19,7 @@ nav{
 }
 
 #myButton {
-font-size: 2 rem;
+font-size: 20px;
 background-color: orange;
 border:none;
 cursor: pointer; 
@@ -36,6 +36,7 @@ nav ul{
 .image1{
     margin-left:300px;
 }
+
 nav a{
     display:block; 
     color: navy; 
@@ -54,6 +55,8 @@ nav .active{
     background-color: rgba(0,0,0,.6);
     
 }
+
+
 
 .card{
     background-color:orange;
@@ -75,6 +78,7 @@ nav .active{
     
 }
 
+
 .card p{
     color:navy;
 }
@@ -86,11 +90,5 @@ h1{
     text-align:center; 
 }
 
-#mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-	font-size: 2rem;
-}
+
+

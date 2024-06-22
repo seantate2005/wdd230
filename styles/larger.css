@@ -20,4 +20,20 @@ ul.menuLinks, ul.menuLinks.open{
   ul.menuLinks a:hover{
     background-color: yellow; 
   }
-}
+
+.checkbtn {
+  display: block;
+  font-size: 5rem;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  }
+ .nav-mobile {
+  top: 160px;
+  width: 100%;
+  }
+ .nav-mobile a {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  }
+ }
