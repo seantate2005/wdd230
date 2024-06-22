@@ -1,8 +1,20 @@
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
+@media (min-width: 1600px) {
+	.grid-container{
+		display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  width: 1600px;
+	  gap: 20px; 
+	  padding: 50px;
+	  margin-left: 300px;
+	}}
+	
+	#myButton{
+	  display:none;
 	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
-}
+	
+	ul.menuLinks, ul.menuLinks.open{
+	  display:flex; 
+	
+	   
+	
+	 
