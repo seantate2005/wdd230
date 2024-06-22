@@ -1,10 +1,16 @@
+.alike-angular-regular {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body{
     background-color:#1e1613; 
-    font-family:roboto;
+    font-family: fantasy;
 }
 h1{
     color: #d08821;
-    font-family: rye; 
+    font-family: ry 
 }
 
 h2{
